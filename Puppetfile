@@ -81,6 +81,7 @@ mod 'herculesteam-augeasproviders_core', '2.1.4'
 mod 'herculesteam-augeasproviders_sysctl', '2.2.0'
 mod 'herculesteam-augeasproviders_ssh', '2.5.0'
 mod 'tspy-code_deploy', '1.0.2'
+mod 'reidmv-taskplan', '0.1.2'
 
 # Module Content from git
 
