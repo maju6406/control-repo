@@ -75,7 +75,7 @@ mod 'darin-zypprepo', '1.0.2'
 mod 'camptocamp-systemd', '0.4.0'
 mod 'nate-purge_node', '1.1.0'
 mod 'sensu-sensu', '2.53.0'
-mod 'arioch-redis', '3.1.0'
+mod 'puppet-redis', '4.0.0'
 mod 'yelp-uchiwa', '2.0.0'
 mod 'herculesteam-augeasproviders_core', '2.1.4'
 mod 'herculesteam-augeasproviders_sysctl', '2.2.0'
@@ -86,7 +86,7 @@ mod 'reidmv-taskplan', '0.1.2'
 # Module Content from git
 
 mod 'beersy-testconnection',
-  :git => 'https://github.com/maju6406/testconnection.git',
+  :git    => 'https://github.com/maju6406/testconnection.git',
   :branch => :control_branch 
 
 mod 'autosign_example',
