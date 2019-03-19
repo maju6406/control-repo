@@ -86,7 +86,7 @@ mod 'reidmv-taskplan', '0.1.2'
 # Module Content from git
 
 mod 'beersy-testconnection',
-  :git => 'https://github.com/maju6406/testconnection.git'
+  :git => 'https://github.com/maju6406/testconnection.git',
   :branch => :control_branch 
 
 mod 'autosign_example',
