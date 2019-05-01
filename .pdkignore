@@ -4,7 +4,6 @@
 .yardoc
 .yardwarns
 *.iml
-/.onceover/
 /.bundle/
 /.idea/
 /.vagrant/
@@ -26,3 +25,18 @@
 .project
 .envrc
 /inventory.yaml
+/appveyor.yml
+/.fixtures.yml
+/Gemfile
+/.gitattributes
+/.gitignore
+/.gitlab-ci.yml
+/.pdkignore
+/Rakefile
+/rakelib/
+/.rspec
+/.rubocop.yml
+/.travis.yml
+/.yardopts
+/spec/
+/.vscode/
