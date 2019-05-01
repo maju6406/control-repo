@@ -26,3 +26,4 @@
 .project
 .envrc
 /inventory.yaml
+.fixtures.yml
