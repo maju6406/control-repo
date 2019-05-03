@@ -27,7 +27,7 @@ mod 'puppetlabs-transition', '0.1.1'
 mod 'puppetlabs-mysql', '5.1.0'
 mod 'puppetlabs-gcc', '0.3.0'
 mod 'puppetlabs-reboot', '2.0.0'
-mod 'puppetlabs-ntp', '7.4.0'
+#mod 'puppetlabs-ntp', '7.4.0'
 mod 'puppetlabs-tagmail', '2.5.0'
 mod 'puppetlabs-firewall', '1.14.0'
 #mod 'puppet-iis', '2.0.2'
@@ -110,4 +110,9 @@ mod 'beersy-hiera_eyaml_setup',
   
 mod 'beersy-plan_runner', 
   :git    => 'https://github.com/maju6406/plan_runner.git',
-  :branch => 'master'  
+  :branch => 'master'
+
+mod 'puppetlabs-ntp',
+  :git            => 'https://github.com/maju6406/puppetlabs-ntp.git',
+  :branch         => :control_branch 
+  :default_branch => 'master'
