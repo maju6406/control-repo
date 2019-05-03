@@ -114,5 +114,5 @@ mod 'beersy-plan_runner',
 
 mod 'puppetlabs-ntp',
   :git            => 'https://github.com/maju6406/puppetlabs-ntp.git',
-  :branch         => :control_branch 
+  :branch         => :control_branch, 
   :default_branch => 'master'
