@@ -46,10 +46,10 @@ class profile::windows_baseline {
   }
   
     # service needs to be running to install the update
-    service { 'wuauserv':
-      ensure => 'running',
-      enable => true,
-    }
+#    service { 'wuauserv':
+#      ensure => 'running',
+#      enable => true,
+#    }
 
     # disable auto updating so machine doesnt start downloading / updating
     registry::value { 'disable updates':
