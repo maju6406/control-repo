@@ -24,13 +24,6 @@ class profile::windows_baseline {
     description  => 'Inbound rule example for demo purposes',
   }
 
-  # USERS
-#  user { 'Puppet':
-#    ensure   => present,
-#    groups   => ['Administrators'],
-#    password => 'Puppet4Life!',
-#  }
-
   # REG KEYS
   registry_key { 'HKEY_LOCAL_MACHINE\Software\Demonstration':
     ensure       => present,
@@ -44,12 +37,6 @@ class profile::windows_baseline {
     type => dword,
     data => '0xFFFFFFFF',
   }
-  
-    # service needs to be running to install the update
-#    service { 'wuauserv':
-#      ensure => 'running',
-#      enable => true,
-#    }
 
     # disable auto updating so machine doesnt start downloading / updating
     registry::value { 'disable updates':
