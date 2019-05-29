@@ -2,10 +2,17 @@
 profile::sample_website::windows::webserver_port: 80
 profile::sample_website::windows::doc_root: 'C:\inetpub\wwwroot\sample_website'
 
+
 profile::sample_website::linux::webserver_port: 80
-profile::sample_website::linux::doc_root: '/var/www/sample_website'
+profile::sample_website::linux::doc_root: "/var/www/sample_website"
 
-profile::sample_data::database_content: 'puppet:///modules/profile/sample_data.sql'
-profile::sample_data::database_name: 'pe_sample_db'
+profile::sample_data::database_content: "puppet:///modules/profile/sample_data.sql"
+profile::sample_data::database_name: "pe_sample_db"
 
-website_source_dir: 'puppet:///modules/profile/sample_website'
+website_source_dir: "puppet:///modules/profile/sample_website"
+
+ntp::servers:
+  - "0.us.pool.ntp.org"
+  - "1.us.pool.ntp.org"
+  - "2.us.pool.ntp.org"
+  - "3.us.pool.ntp.org"
