@@ -38,6 +38,10 @@ class profile::windows_baseline {
     data => '0xFFFFFFFF',
   }
 
+  # WINNTP
+  class { 'winntp':
+    servers => ['time.nist.gov', 'pool.ntp.org'],
+  }
     # disable auto updating so machine doesnt start downloading / updating
     registry::value { 'disable updates':
       key   => 'HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU',

@@ -80,6 +80,7 @@ mod 'herculesteam-augeasproviders_sysctl', '2.2.0'
 mod 'herculesteam-augeasproviders_ssh', '2.5.0'
 mod 'tspy-code_deploy', '1.0.2'
 mod 'reidmv-taskplan', '0.1.2'
+mod 'tse-winntp', '1.0.1'
 
 # Module Content from git
 
